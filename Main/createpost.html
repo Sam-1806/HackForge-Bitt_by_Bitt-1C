@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>enGEO: Empowering Change</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <style>
+        *{
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        }
+
+        body {
+            font-family: sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header {
+            background-color:rgba(55, 81, 126, 0.8);
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color:white;
+            font-size: 3em;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: white;
+        }
+
+        main {
+            padding: 50px;
+        }
+
+        .button {
+            background-color: #94C7B1;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .input {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .input button img {
+            height: 20px;
+            width: 20px;
+        }
+
+        .posts-container {
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .post {
+            padding: 15px;
+            border-bottom: 1px solid #ccc;
+        }
+        .post img{
+            height: 230px;
+            width: 433px;
+        }
+
+        .post-user {
+            font-size: 0.8em;
+            color: #778899;
+            font-weight: bold;
+        }
+
+        .post-content {
+            font-size: 1em;
+        }
+
+        .post-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 5px;
+            display: none; /* Hide image by default */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>enGEO</h1>
+        <h2>Connecting individuals and causes for positive impact</h2>
+    </header>
+
+    <main>
+
+        <section class="create-post">
+            <h2>Create a Post</h2>
+            <div class="post-section">
+                <div class="input" style=" margin:0px 250px; width:600px; padding:30px; border:1px solid gray; border-radius: 40px;">
+                    <textarea id="post-content" style="width:600px; padding:15px; border:none;" placeholder="Share your thoughts, updates, or questions"></textarea>
+                    <input type="file" id="fileInput" style="display: none;" accept="image/*" onchange="handleFileUpload(this)">
+                    <button id="selectButton" onclick="upload()" style="width:70px; height:70px; border:none; background-color: #94C7B1; border-radius: 10px;"><img src="upload.svg" alt=""></button>
+                </div>
+                <button id="post-button" class="button" style=" margin: 10px 530px;">Create Post</button>
+                <div class="posts-container"></div>
+            </div>
+            <button id="clear-button" class="button" style=" margin: 10px 530px;">Clear Posts</button>
+        </section>
+
+    </main>
+
+    <footer style="height:80px; width:100%; background-color:rgba(55, 81, 126, 0.8) ">
+        <p style="text-align: center; color: white; padding: 30px;">&copy; 2024 enGEO. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Function to handle file upload
+        function handleFileUpload(input) {
+            const file = input.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const imageUrl = e.target.result;
+                    const imageElement = document.createElement('img');
+                    imageElement.src = imageUrl;
+                    imageElement.classList.add('post-image');
+                    document.getElementById('post-content').parentNode.appendChild(imageElement);
+                }
+                reader.readAsDataURL(file);
+            }
+        }
+
+        // Function to trigger file input
+        function upload() {
+            const fileInput = document.getElementById("fileInput");
+            fileInput.click();
+        }
+
+        // Add post functionality
+        const postButton = document.getElementById('post-button');
+        const postsContainer = document.querySelector('.posts-container');
+
+        postButton.addEventListener('click', () => {
+            const postContent = document.getElementById('post-content').value;
+            document.getElementById('post-content').value = '';
+
+            const newPost = document.createElement('div');
+            newPost.classList.add('post');
+
+            const postUser = document.createElement('p');
+            postUser.classList.add('post-user');
+            postUser.textContent = 'Username';
+
+            const postContentElement = document.createElement('p');
+            postContentElement.classList.add('post-content');
+            postContentElement.textContent = postContent;
+
+            newPost.appendChild(postUser);
+            newPost.appendChild(postContentElement);
+
+            const postImage = document.querySelector('.post-image');
+            if (postImage) {
+                newPost.appendChild(postImage); // Add image to the post
+                postImage.style.display = 'block'; // Display the image
+            }
+
+            postsContainer.appendChild(newPost);
+        });
+
+        // Clear posts functionality
+        const clearButton = document.getElementById('clear-button');
+        clearButton.addEventListener('click', () => {
+            postsContainer.innerHTML = '';
+        });
+    </script>
+</body>
+
+</html>
