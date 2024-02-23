@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1xfFrGkcsC0dZe0CXIRrjiB41tfdQaSGw">
+	<name>Untitled</name>
+	<gx:CascadingStyle kml:id="__managed_style_3EB3EB215B2F028F93DC">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_21E6199DAD2F028F93DC">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_16F104DEB62F028F93DC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_21E6199DAD2F028F93DC</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_3EB3EB215B2F028F93DC</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_039F99AA0E2F028F93DC">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_18D49863B72F028F93DB">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_033B44E4132F028F93DB">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_18D49863B72F028F93DB</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_039F99AA0E2F028F93DC</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="0EA0A2DFB02F0226AE65">
+		<name>Modern</name>
+		<styleUrl>#__managed_style_033B44E4132F028F93DB</styleUrl>
+	</Folder>
+	<Placemark id="03FFDAF7982F0227A80B">
+		<name>Suvidha Mahila Mandal</name>
+		<gx:mid>/g/11s2k8gqq7</gx:mid>
+		<gx:fid>0x3bd4c5b078211fe7:0xd6c9d2d1945e6e1b</gx:fid>
+		<LookAt>
+			<longitude>79.11079409999999</longitude>
+			<latitude>21.2771359</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>976.4790457337641</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>79.11078599999999,21.2771375,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C261422022F02905B68">
+		<name>Smile Foundation, Mumbai</name>
+		<gx:mid>/g/1tfgbq17</gx:mid>
+		<gx:fid>0x3be7c9b69dc5184d:0x86b353e9d661b03b</gx:fid>
+		<LookAt>
+			<longitude>72.8485618</longitude>
+			<latitude>19.1034338</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>991.7665886879086</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>72.8485618,19.1034338,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08BB02E5822F02917DCA">
+		<name>Wings For Dreams | Pune | Best Ngo NGO in Pune |</name>
+		<gx:mid>/g/11j0ymz77r</gx:mid>
+		<gx:fid>0x3bc2c1ea090faea3:0xa02b86e39fed1228</gx:fid>
+		<LookAt>
+			<longitude>73.88224319999999</longitude>
+			<latitude>18.5373777</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.4944676293397</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.88224319999999,18.5373777,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="028938544C2F0291C119">
+		<name>Nelda Foundation</name>
+		<gx:mid>/g/11dylvl5z5</gx:mid>
+		<gx:fid>0x3bc2bf8eb362173d:0x46bfe1fe78654404</gx:fid>
+		<LookAt>
+			<longitude>73.8476271</longitude>
+			<latitude>18.4882775</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.8128498202984</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.8476271,18.4882775,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05E205EB692F02921A35">
+		<name>Y4D Foundation</name>
+		<gx:mid>/g/11fctdpsrb</gx:mid>
+		<gx:fid>0x3bc2b972e402c713:0xda27ba89fb1119b7</gx:fid>
+		<LookAt>
+			<longitude>73.7697999</longitude>
+			<latitude>18.6002865</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.0853827871609</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.7697999,18.6002865,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D9439E1522F02927AF6">
+		<name>ThinkSharp Foundation</name>
+		<gx:mid>/g/11txjlb_sn</gx:mid>
+		<gx:fid>0x22449e6840855aeb:0xf659ca4ebffc7ed1</gx:fid>
+		<LookAt>
+			<longitude>73.9370404</longitude>
+			<latitude>18.5035887</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.7136522749602</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.9370404,18.5035887,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C94164C292F0292D542">
+		<name>Happy Thoughts Hadapsar</name>
+		<gx:mid>/g/11fx_11_ms</gx:mid>
+		<gx:fid>0x3bc2c205f60d1e7d:0xe8650219ce191e84</gx:fid>
+		<LookAt>
+			<longitude>73.9476536</longitude>
+			<latitude>18.4984606</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.7468846121621</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.9476536,18.4984606,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0438AD79FD2F02932D5A">
+		<name>PHILANTS NGO ( PUNE )</name>
+		<gx:mid>/g/11ngtkt7c4</gx:mid>
+		<gx:fid>0x3bc2c179726d0d4f:0x5672aa8b6f8c93f2</gx:fid>
+		<LookAt>
+			<longitude>73.86232849999999</longitude>
+			<latitude>18.4960063</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.7627864797329</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.86232849999999,18.4960063,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CA26062282F02938F41">
+		<name>HUMAN RIGHTS PRAKHAR SHODH MOHIM SOCIETY (NGO)</name>
+		<gx:mid>/g/11hbkzxqx3</gx:mid>
+		<gx:fid>0x3bc2c03d97100001:0x1a5459f94c10d5aa</gx:fid>
+		<LookAt>
+			<longitude>73.86666989999999</longitude>
+			<latitude>18.4998816</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.7376767787404</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.86666989999999,18.4998816,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01AB0E9EC52F0293E4A1">
+		<name>Sanjivani NGO in Pune</name>
+		<gx:mid>/g/11hbc36d8s</gx:mid>
+		<gx:fid>0x3bc2ea1090ffffc9:0x6bb2fb09d3d8ca48</gx:fid>
+		<LookAt>
+			<longitude>73.9249794</longitude>
+			<latitude>18.4751942</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.8975519936695</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.9249765,18.475178,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="063B2D15F32F02942675">
+		<name>YTDS | Best NGO in Pune</name>
+		<gx:mid>/g/11v0tkk26l</gx:mid>
+		<gx:fid>0x3bc2c3e6306815ef:0x5ac9f3831d0dd20</gx:fid>
+		<LookAt>
+			<longitude>73.93763539999999</longitude>
+			<latitude>18.55110849999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.4052900889575</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.93763539999999,18.5511085,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00D33CC4A32F02945B09">
+		<name>Marpu Foundation (NGO) | Pune</name>
+		<gx:mid>/g/11sscz10rh</gx:mid>
+		<gx:fid>0x3bc2c1e920447973:0xae214467b5d78ba3</gx:fid>
+		<LookAt>
+			<longitude>73.89224489999999</longitude>
+			<latitude>18.5332619</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.5211864255502</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.89224489999999,18.5332619,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FB11506582F02949E00">
+		<name>Seva Sahayog Women Empowerment Center</name>
+		<gx:mid>/g/11v0tcp9wl</gx:mid>
+		<gx:fid>0x3bc2c14658f72e6f:0xa4d046d4592fe33c</gx:fid>
+		<LookAt>
+			<longitude>73.8433981</longitude>
+			<latitude>18.5065604</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.6943903811066</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.8433981,18.5065604,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DF968C4AC2F0294FF52">
+		<name>Prayas Youth Forum And Social Awareness Foundation</name>
+		<gx:mid>/g/11fnw114bl</gx:mid>
+		<gx:fid>0x3bc2bfdb31ce77e1:0x32f5ad0e0ac7375f</gx:fid>
+		<LookAt>
+			<longitude>73.8182566</longitude>
+			<latitude>18.4910276</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.795038294872</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.8182566,18.4910276,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00583A1BA22F029537EB">
+		<name>MANAVYA SANSTHA Office</name>
+		<gx:mid>/g/11ckkx0y20</gx:mid>
+		<gx:fid>0x3bc2bf942b66106b:0x28d596f10c8b1d5d</gx:fid>
+		<LookAt>
+			<longitude>73.82143289999999</longitude>
+			<latitude>18.5091641</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.6775113839323</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.82143289999999,18.5091641,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EB10788E02F0295B077">
+		<name>Globalize Skills Foundation - GSF NGO</name>
+		<gx:mid>/g/11rk30s2kp</gx:mid>
+		<gx:fid>0x3bc2bfca388ab3b3:0xc7a3afd8a094cb76</gx:fid>
+		<LookAt>
+			<longitude>73.81904209999999</longitude>
+			<latitude>18.4805626</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.8628034473428</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.8189867,18.4805547,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="013DE7BAE12F02961FEC">
+		<name>Anjalee NGO</name>
+		<gx:mid>/g/11dyzf5s90</gx:mid>
+		<gx:fid>0x3bc2c0403ef04495:0xa0dc3258ba33356f</gx:fid>
+		<LookAt>
+			<longitude>73.8666624</longitude>
+			<latitude>18.5093235</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.6764779693708</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.8666624,18.5093235,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="019A285A2F2F02968CC6">
+		<name>Me the change - NGO</name>
+		<gx:mid>/g/11hfhhbv0p</gx:mid>
+		<gx:fid>0x3bc2c07c9aaaaaab:0xb5a234cb34b02161</gx:fid>
+		<LookAt>
+			<longitude>73.851463</longitude>
+			<latitude>18.52434310000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.5790659668837</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.85139959999999,18.5243473,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C13ED88FE2F0296BC48">
+		<name>INHAF NGO</name>
+		<gx:mid>/g/11c2lc0jhs</gx:mid>
+		<gx:fid>0x3bc2bf7a9f27c5fb:0xafa438abeec0eceb</gx:fid>
+		<LookAt>
+			<longitude>73.8304612</longitude>
+			<latitude>18.5374585</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>995.493943038956</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16F104DEB62F028F93DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.8304193,18.537454,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
